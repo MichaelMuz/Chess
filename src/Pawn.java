@@ -3,11 +3,11 @@ import java.util.List;
 
 public class Pawn extends Piece{
 	private boolean firstMove;
-	private boolean movedTwo;
+	//private boolean movedTwo;
 	public Pawn(String colo, Coordinate s) {
 		super(colo, s);
 		firstMove = true;
-		movedTwo = false;
+		//movedTwo = false;
 	}
 
 
